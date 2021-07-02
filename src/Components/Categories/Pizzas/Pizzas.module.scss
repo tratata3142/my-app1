@@ -1,0 +1,182 @@
+.pizzas{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    padding-bottom: 95px;
+    margin-right: -35px;
+   
+
+    .pizzaItem{
+        width: 280px;
+        position: relative;
+        margin-bottom: 110px;
+        margin-right: 35px;
+        
+
+        img{
+            width: 260px;
+            height: 260px;
+            margin: 0 auto;
+        }
+        .pizzaName{
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.01em;
+            padding-top: 11px;
+            text-overflow: ellipsis;
+            height: 53px;
+        }
+        .pizzaParameters{
+            width: 280px;
+            height: 85px;
+            background: #F3F3F3;
+            border-radius: 10px;
+            margin-top: 22px;
+
+            .pizzaType{
+                display: flex;
+                justify-content: space-between;
+
+                span{
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-align: center;
+                    letter-spacing: 0.015em;
+                    color: #2C2C2C;
+                    margin: 7px 5px;
+                    width: 50%;
+                    height: 32px;
+                    padding-top: 6.36px;
+                    background: rgba(255, 255, 255, 0.3);
+                    border-radius: 5px;
+                    
+
+                    &.active{
+                        background: #FFFFFF;
+                        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+                        border-radius: 5px;
+                    }
+                    &.disabled{
+                        opacity: 0.2;
+                        pointer-events: none;
+                    }
+                    &:hover:not(.disabled){
+                        background: #FFFFFF;
+                        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .sizes{
+                display: flex;
+                justify-content: space-between;
+                
+                span{
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-align: center;
+                    letter-spacing: 0.015em;
+                    color: #2C2C2C;
+                    height: 32px;
+                    width: 83px;
+                    padding-top:6.36px ;
+                    margin-left: 5.73px;
+                    margin-right: 5.73px;
+                    background: rgba(255, 255, 255, 0.3);
+                    border-radius: 5px;
+
+                    &.active{
+                        background: #FFFFFF;
+                        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+                        border-radius: 5px;
+                    }
+                    &.disabled{
+                        opacity: 0.2;
+                        pointer-events: none;
+                    }
+                    &:hover:not(.disabled){
+                        background: #FFFFFF;
+                        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .price{
+            margin-top: 24px;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+            letter-spacing: 0.015em;
+            color: #000000;
+            position: absolute;
+            left: 0;
+        }
+        .addPizzaCart{
+            background: #FFFFFF;
+            border: 1px solid #EB5A1E;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
+            color: #EB5A1E;
+            height: 40px;
+            position: absolute;
+            right: 0;
+            margin-top: 14px;
+            padding: 10px 18px 12px 18px;
+            -webkit-touch-callout: none; 
+            -webkit-user-select: none;
+            -khtml-user-select: none;    
+            -moz-user-select: none;     
+            -ms-user-select: none;       
+            user-select: none;   
+            display: flex;
+            align-items: center;
+
+            svg{
+                margin-right: 7px;
+            }
+
+            &:hover{
+                background: #FE5F1E;
+                color: #FFFFFF;
+                cursor: pointer;
+
+                svg{
+                    path{
+                        fill: #fff;
+                    }
+                }
+            }
+            .iInCart{
+                float: right;
+                background: #EB5A1E;
+                width: 23px;
+                height: 23px;
+                border-radius: 50%;
+                margin-left: 10px;
+                display: flex;
+                b{
+                    font-size: 13px;
+                    line-height: 16px;
+                    color: #FFFFFF;
+                    align-self: center;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+
+
+                    

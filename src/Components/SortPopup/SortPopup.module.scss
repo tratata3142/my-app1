@@ -1,0 +1,58 @@
+.sortActive{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FE5F1E;
+    border-bottom: 1px dashed #FE5F1E;
+}
+
+.SortPopup{
+    margin-right:48px ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+
+    b{
+        margin: 0 7px;
+    }
+}
+
+.SortPopup:hover{
+    cursor: pointer;
+}
+
+.sortBy{
+    margin-top: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+
+
+        .sortItem{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+            padding: 10px 30px;
+            width: 100%;
+        }
+}
+
+.sortItem:hover{
+    background: rgba(254, 95, 30, 0.05);
+}
+
+.unVisiblePopup{
+    display:none;
+}
+
+.rotated{
+    transform: rotate(180deg);
+}

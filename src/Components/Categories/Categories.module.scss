@@ -1,0 +1,27 @@
+.categories{
+    display: flex;
+}
+
+.categoryButton{
+    background-color: #F9F9F9;;
+    list-style: none;
+    display: flex;
+    height: 36px;
+    align-items: center;
+    margin-right: 9px;
+    border-radius: 30px;
+    padding: 0 28px;
+    color: #2C2C2C;
+    transition: all .1s linear;
+
+}
+.categoryButton:hover{
+    background: #282828;
+    color:#fff;
+    cursor: pointer;
+}
+
+.active{
+    background: #282828;
+    color:#fff;
+}
