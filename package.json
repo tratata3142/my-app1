@@ -86,7 +86,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "server": "npx json-server --watch public/db.json --port=3001"
+    "server": "json-server --watch public/db.json --port=3001"
   },
   "eslintConfig": {
     "extends": [
