@@ -46,6 +46,7 @@
     "jest-circus": "26.6.0",
     "jest-resolve": "26.6.0",
     "jest-watch-typeahead": "0.6.1",
+    "json-server": "^0.16.3",
     "mini-css-extract-plugin": "0.11.3",
     "node-sass": "4.14.1",
     "optimize-css-assets-webpack-plugin": "5.0.4",
@@ -109,8 +110,7 @@
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.1.7",
-    "gh-pages": "^3.2.3",
-    "json-server": "^0.16.3"
+    "gh-pages": "^3.2.3"
   },
   "jest": {
     "roots": [
